@@ -17,13 +17,13 @@
 	<dependencies>
 		<dependency>
 			<groupId>com.egoday</groupId>
-			<artifactId>earsample-war</artifactId>
+			<artifactId>earsample-javaee-web</artifactId>
 			<version>${project.version}</version>
 			<type>war</type>
 		</dependency>
 		<dependency>
 			<groupId>com.egoday</groupId>
-			<artifactId>earsample-spring</artifactId>
+			<artifactId>earsample-spring-web</artifactId>
 			<version>${project.version}</version>
 			<type>war</type>
 		</dependency>
@@ -41,17 +41,17 @@
 					<modules>
 						<webModule>
 							<groupId>com.egoday</groupId>
-							<artifactId>earsample-war</artifactId>
+							<artifactId>earsample-javaee-web</artifactId>
 							<moduleId>war</moduleId>
-							<bundleFileName>earsample-war.war</bundleFileName>
-							<contextRoot>/web</contextRoot>
+							<bundleFileName>earsample-javaee-web.war</bundleFileName>
+							<contextRoot>/javaee-web</contextRoot>
 						</webModule>
 						<webModule>
 							<groupId>com.egoday</groupId>
-							<artifactId>earsample-spring</artifactId>
+							<artifactId>earsample-spring-web</artifactId>
 							<moduleId>war</moduleId>
-							<bundleFileName>earsample-spring.war</bundleFileName>
-							<contextRoot>/spring</contextRoot>
+							<bundleFileName>earsample-spring-web.war</bundleFileName>
+							<contextRoot>/spring-web</contextRoot>
 						</webModule>
 					</modules>
 				</configuration>

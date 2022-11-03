@@ -8,10 +8,10 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 
-	<artifactId>earsample-war</artifactId>
+	<artifactId>earsample-javaee-web</artifactId>
 	<packaging>war</packaging>
 
-	<name>earsample-war</name>
+	<name>earsample-javaee-web</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>

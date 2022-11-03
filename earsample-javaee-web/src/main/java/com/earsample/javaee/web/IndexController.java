@@ -1,4 +1,4 @@
-package com.earsample.war;
+package com.earsample.javaee.web;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;

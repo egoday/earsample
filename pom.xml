@@ -45,8 +45,8 @@
 	</build>
 
 	<modules>
-		<module>earsample-war</module>
 		<module>earsample-ear</module>
-    	<module>earsample-spring</module>
+		<module>earsample-javaee-web</module>
+    	<module>earsample-spring-web</module>
   </modules>
 </project>

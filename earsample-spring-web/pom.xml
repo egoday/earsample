@@ -8,10 +8,10 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 
-	<artifactId>earsample-spring</artifactId>
+	<artifactId>earsample-spring-web</artifactId>
 	<packaging>war</packaging>
 
-	<name>earsample-spring</name>
+	<name>earsample-spring-web</name>
 	<url>http://maven.apache.org</url>
 
 	<dependencyManagement>
@@ -36,6 +36,10 @@
 					<artifactId>spring-boot-starter-tomcat</artifactId>
 				</exclusion>
 			</exclusions>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>javax.servlet</groupId>
